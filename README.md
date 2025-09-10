@@ -7,7 +7,7 @@
 
 *my languages:*
 
-  HTML, CSS, JavaScript <sup>(still learning)</sup>, C# <sup>(unity)</sup>, Lua, C++ <sup>(still learning)</sup>, Java <sup>(also still learning)</sup>, TI-Basic, Markdown too appearently
+  HTML, CSS, JavaScript <sup>(still learning)</sup>, C# <sup>(unity)</sup>, Lua, C++ <sup>(still learning)</sup>, Java <sup>(also still learning)</sup>, TI-Basic, and markdown too apparently
   
 ***
 
