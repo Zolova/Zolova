@@ -5,7 +5,7 @@
 - various random coding projects because i won't commit to just one project 💔
 - trying to focus more on using the terminal for tasks bc it looks cool
 
-*my languages*
+*my languages:*
 
   HTML, CSS, JavaScript <sup>(still learning)</sup>, C# <sup>(unity)</sup>, Lua, C++ <sup>(still learning)</sup>, Java <sup>(also still learning)</sup>, TI-Basic, Markdown too appearently
   
