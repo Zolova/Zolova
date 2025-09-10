@@ -1,11 +1,11 @@
-- Howdy and hey, I'm Zack
-- I'm interested in making games and mods
-- I’m currently learning Lua and Java
-- I’m looking to collaborate on NOTHING (yet)
-- Pronouns: He/Him
-- Fun Fact: I had to make a graphic design, plugin, and a bunch of models for one guy 😔
+# hello great people of the git hub
+*what i be doin:*
+- graphic designs
+- websites
+- various random coding projects because i won't commit to just one project 💔
+- trying to focus more on using the terminal for tasks bc it looks cool
+*my languages*
+  HTML, CSS, JavaScript ^(still learning)^, C# ^(unity)^, Lua, C++ ^(still learning)^, Java ^(also still learning)^, TI-Basic, Markdown too appearently
+^[everything listed above except C# and TI-Basic i'm not completely done learning, i'm kinda hopping languages because i have too many projects :P]^
 
-<!---
-Zolova/Zolova is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### but yeah that's me
