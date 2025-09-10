@@ -6,6 +6,7 @@
 - trying to focus more on using the terminal for tasks bc it looks cool
 *my languages*
   HTML, CSS, JavaScript <sup>(still learning)</sup>, C# <sup>(unity)</sup>, Lua, C++ <sup>(still learning)</sup>, Java <sup>(also still learning)</sup>, TI-Basic, Markdown too appearently
+  
 <sup>[everything listed above except C# and TI-Basic i'm not completely done learning, i'm kinda hopping languages because i have too many projects :P]</sup>
 
 ### but yeah that's me
