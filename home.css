@@ -28,7 +28,7 @@ body {
   margin-left: -0.5%;
   width: 102%;
   height: 8.5vh;
-  translate: 0 -1vh;
+  /*translate: 0 -1vh;*/
   background-color: rgba(0,0,0,0.5);
   top: 0;
   display: flex;
