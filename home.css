@@ -1,0 +1,515 @@
+/*                         HEADER                                 */
+body {
+  background: rgb(14,12,18);
+  /*background-image: url(images/graphics/patterns/cross\ pattern.png);
+  background: background: rgb(14,12,18);*/
+  background: linear-gradient(180deg, rgba(14,12,18,1) 0%, rgba(14,12,18,0) 71%, rgba(14,12,18,1) 100%), url(images/graphics/patterns/cross\ pattern.png);
+
+  overflow-x: hidden;
+  height: 100%;
+}
+
+::selection {
+  background: rgba(151, 65, 255, 0.117);
+}
+
+@font-face {
+  font-family: 'digital disco';
+  src: url('fonts/DigitalDisco.ttf');
+}
+
+@font-face {
+  font-family: 'redhat mono';
+  src: url('fonts/RedHat Mono.ttf');
+}
+
+.header {
+  position: sticky;
+  margin-left: -0.5%;
+  width: 102%;
+  height: 8.5vh;
+  translate: 0 -1vh;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  display: flex;
+
+  z-index: 4;
+
+  /*backdrop-filter: brightness(0.75);*/
+}
+
+.header-logo-attribute {
+  padding-top: 0.75%;
+  padding-left: 0.75%;
+
+  width: 4%;
+}
+.header-logo {
+
+  width: 80%;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  -webkit-user-drag: none;
+
+  cursor: pointer;
+
+  transition: all 0.25s;
+}
+.header-logo:hover {
+  scale: 102.5%;
+}
+.header-logo:active {
+  scale: 95%;
+}
+
+.header-option {
+  color: white;
+  margin-left: 4%;
+  margin-top: 1.3%;
+  font-size: 1.75rem;
+
+  text-decoration: none;
+  font-family: 'redhat mono';
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  transition: scale 0.5s, color 0.5s;
+}
+.header-option:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  scale: 105%;
+}
+.header-option:active {
+  scale: 95%;
+}
+
+.header-option-current {
+  color: rgb(142, 67, 255);
+  margin-left: 4%;
+  margin-top: 1.3%;
+  font-size: 1.75rem;
+
+  text-decoration: none;
+  font-family: 'redhat mono';
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  transition: scale 0.5s, color 0.5s;
+}
+.header-option-current:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  scale: 105%;
+  color: rgb(164, 104, 255);
+}
+.header-option-current:active {
+  scale: 95%;
+  color: rgb(142, 67, 255);
+}
+/*                         MAIN                                 */
+
+.title-div {
+  text-align: center;
+  position: relative;
+}
+
+.title-banner {
+  width: 100%;
+  height: 100vh;
+
+  overflow-x: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-user-drag: none;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  margin-top: 0;
+
+  animation-name: title-banner-loop;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.title-banner-2 {
+  width: 100%;
+  height: 100vh;
+
+  -webkit-user-drag: none;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  margin-top: 0;
+  margin-left: -200%;
+
+  animation-name: title-banner-loop;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes title-banner-loop {
+  0% {translate: 0;}
+  100%{translate: 100%;}
+}
+
+.hi-title {
+  color: rgba(255, 255, 255, 0.643);
+
+  font-family: 'digital disco';
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  
+  position: absolute;
+  top: 9.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 8rem;
+  z-index: 2;
+
+  text-shadow: 0 0 3vh rgb(0, 0, 0);
+
+  cursor: default;
+}
+
+.links-div {
+  margin-left: 15%;
+  margin-top: -30%;
+
+  width: 70%;
+  height: 60vh;
+
+  background-color: rgba(229, 223, 231, 0.1);
+  /*box-shadow: inset 0 0 7.5vh rgba(255, 255, 255, 0.246);*/
+  backdrop-filter: blur(1vh);
+
+  border-radius: 5vh;
+
+  transition: all 0.5s;
+}
+.links-div:hover {
+  translate: 0 -0.25vh;
+}
+
+.wti {
+  padding-top: 2.5%;
+
+  text-align: center;
+  color: white;
+  font-size: 1.75rem;
+
+  font-family: 'redhat mono';
+}
+
+.wti-span {
+  font-size: 1.25rem;
+}
+
+.buttons-div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1vh;
+
+  width: 45%;
+  height: 40vh;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.youtube-button {
+  background-color: rgb(8, 7, 11);
+  border: none;
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.635);
+
+  border-top-left-radius: 5vh;
+
+  transition: all 0.5s;
+}
+.spotify-button {
+  background-color: rgb(8, 7, 11);
+  border: none;
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.635);
+
+  border-top-right-radius: 5vh;
+
+  transition: all 0.5s;
+}
+.twitch-button {
+  background-color: rgb(8, 7, 11);
+  border: none;
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.635);
+
+  border-bottom-left-radius: 5vh;
+
+  transition: all 0.5s;
+}
+.itchio-button {
+  background-color: rgb(8, 7, 11);
+  border: none;
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.635);
+
+  border-bottom-right-radius: 5vh;
+
+  transition: all 0.5s;
+}
+
+.youtube-button:hover {
+  background-color: rgb(15, 13, 20);
+  scale: 102.5%;
+  cursor: pointer;
+}
+.spotify-button:hover {
+  background-color: rgb(15, 13, 20);
+  scale: 102.5%;
+  cursor: pointer;
+}
+.twitch-button:hover {
+  background-color: rgb(15, 13, 20);
+  scale: 102.5%;
+  cursor: pointer;
+}
+.itchio-button:hover {
+  background-color: rgb(15, 13, 20);
+  scale: 102.5%;
+  cursor: pointer;
+}
+
+.youtube-button:active {
+  scale: 97.5%;
+  cursor: pointer;
+}
+.spotify-button:active {
+  scale: 97.5%;
+  cursor: pointer;
+}
+.twitch-button:active {
+  scale: 97.5%;
+  cursor: pointer;
+}
+.itchio-button:active {
+  scale: 97.5%;
+  cursor: pointer;
+}
+
+.button-links-div {
+  position: relative;
+  top: -88.1%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 40%;
+  height: 40vh;
+  margin-left: 52.5%;
+  margin-top: 9.7%;
+  border-radius: 5vh;
+
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+
+  transition: all 0.5s;
+}
+.button-links-div:hover {
+  scale: 102.5%;
+}
+
+.button-links-text {
+  text-align: center;
+  width: 100%;
+
+  color: white;
+  opacity: 0.635;
+  text-decoration: none;
+  
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'redhat mono';
+
+  transition: all 0.5s;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  -webkit-user-drag: none;
+}
+.button-links-text:hover {
+  text-decoration: underline;
+  scale: 105%;
+  opacity: 100%;
+}
+
+/*                         FOOTER                                 */
+
+.footer {
+  width: 100%;
+  height: 40vh;
+
+  margin-left: -50%;
+
+  margin-top: 5%;
+  margin-bottom: 0;
+
+  background-color: rgb(8, 7, 11);
+
+
+  position: absolute;
+  bottom: -75%;
+  left: 50%;
+
+  border-top: solid;
+  border-width: 1em;
+  border-color: rgb(25, 22, 33);
+}
+
+.footer-logo {
+  margin-left: 1%;
+  margin-top: 2.75%;
+  width: 5%;
+
+  -webkit-user-drag: none;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(53, 48, 68);
+  font-family: 'redhat mono';
+}
+.footer-copyright-span {
+  font-size: 01rem;
+}
+
+.linky {
+  color: rgba(151, 65, 255, 0.557);
+}
+.linky:active {
+  color: rgba(89, 32, 160, 0.557);
+}
+
+.footer-contact-me {
+  text-align: center;
+  font-size: 1.25rem;
+  color:rgb(53, 48, 68);
+  font-family: 'redhat mono';
+
+  margin-bottom: 0.5%;
+}
+
+.footer-contact-div {
+  display: flex;
+
+  width: 16.5%;
+  height: 9vh;
+
+  margin-top: 0;
+  margin-left: 41.25%;
+
+  border: dashed;
+  border-radius: 3vh;
+  border-color: rgba(53, 48, 68, 0.3);
+
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.footer-youtube {
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+
+  background-color: rgb(53, 48, 68);
+
+  flex-grow: 1;
+  height: 80%;
+  margin-top: 2.5%;
+
+  border: none;
+
+  transition: all 0.25s;
+
+  font-size: 2rem;
+  color: rgb(8, 7, 11);
+
+  opacity: 85%;
+
+  cursor: pointer;
+}
+.footer-youtube:hover {
+  translate: 0 -0.25vh;
+  opacity: 100%;
+}
+
+.footer-email {
+  background-color: rgb(53, 48, 68);
+
+  flex-grow: 1;
+  height: 80%;
+  margin-top: 2.5%;
+
+  border: none;
+
+  transition: all 0.25s;
+
+  font-size: 2rem;
+  color: rgb(8, 7, 11);
+
+  opacity: 85%;
+
+  cursor: pointer;
+}
+.footer-email:hover {
+  translate: 0 -0.25vh;
+  opacity: 100%;
+}
+
+.footer-discord {
+  background-color: rgb(53, 48, 68);
+
+  flex-grow: 1;
+  height: 80%;
+  margin-top: 2.5%;
+
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+
+  border: none;
+
+  transition: all 0.25s;
+
+  font-size: 2rem;
+  color: rgb(8, 7, 11);
+
+  opacity: 85%;
+
+  cursor: pointer;
+}
+.footer-discord:hover {
+  translate: 0 -0.25vh;
+  opacity: 100%;
+}
